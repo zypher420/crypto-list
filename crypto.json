@@ -1,0 +1,122 @@
+[
+    {
+        "name"          : "Raptoreum",
+        "description"   : "Raptoreum on Mainnet",
+        "symbol"        : "RTM",
+        "net_type"      : "main",
+
+        "net_magic"     : {
+            "protocol_version"  : 70218,
+            "main"              : "72746d2e",
+            "test"              : "7472746d",
+        },
+
+        "website"       : "https://raptoreum.com/",
+        "github"        : "https://github.com/Raptor3um/Raptoreum",
+
+        "explorer"      : "https://explorer.raptoreum.com/",
+        "explorer_type" : "rpc_explorer",
+
+        "explorer_tx"   : "https://explorer.raptoreum.com/tx/<TXID>",
+        "explorer_block": "https://explorer.raptoreum.com/block/<HASH>",
+
+        "api"           : {
+            "block_count"       : "https://explorer.raptoreum.com/api/getblockcount",
+            "raw_tx"            : "https://explorer.raptoreum.com/api/getrawtransaction?txid=<TXID>",
+            "balance"           : "https://explorer.raptoreum.com/api/getaddressbalance?address=<ADDRESS>"
+        },
+
+        "social"        : {
+            "discord"           : "https://discord.gg/ASsjHjRTPb",
+            "telegram"          : "https://t.me/raptoreum",
+            "twitter"           : "https://twitter.com/raptoreum",
+            "reddit"            : "https://www.reddit.com/r/raptoreum/",
+            "btctalk"           : "https://bitcointalk.org/index.php?topic=5065848"
+        },
+
+        "pow"           : [ "cpu", "gpu" ],
+        "pow_algo"      : [ "ghostrider", "gr" ],
+
+        "search_keys"   : [ "rtm", "RTM", "raptoreum", "Raptoreum", "mainnet" ]
+    },
+    {
+        "name"          : "Testnet Raptoreum",
+        "description"   : "Raptoreum on Testnet",
+        "symbol"        : "TRTM",
+        "net_type"      : "test",
+
+        "net_magic"     : {
+            "protocol_version"  : 70219,
+            "main"              : "72746d2e",
+            "test"              : "7472746d",
+        },
+
+        "website"       : "https://raptoreum.com/",
+        "github"        : "https://github.com/Raptor3um/Raptoreum",
+
+        "explorer"      : "https://testnet.raptoreum.com/",
+        "explorer_type" : "rpc_explorer",
+
+        "explorer_tx"   : "https://testnet.raptoreum.com/tx/<TXID>",
+        "explorer_block": "https://testnet.raptoreum.com/block/<HASH>",
+
+        "api"           : {
+            "block_count"       : "https://testnet.raptoreum.com/api/getblockcount",
+            "raw_tx"            : "https://testnet.raptoreum.com/api/getrawtransaction?txid=<TXID>",
+            "balance"           : "https://testnet.raptoreum.com/api/getaddressbalance?address=<ADDRESS>"
+        },
+
+        "social"        : {
+            "discord"           : "https://discord.gg/ASsjHjRTPb",
+            "telegram"          : "https://t.me/raptoreum",
+            "twitter"           : "https://twitter.com/raptoreum",
+            "reddit"            : "https://www.reddit.com/r/raptoreum/",
+            "btctalk"           : "https://bitcointalk.org/index.php?topic=5065848"
+        },
+
+        "pow"           : [ "cpu", "gpu" ],
+        "pow_algo"      : [ "ghostrider", "gr" ],
+
+        "search_keys"   : [ "trtm", "TRTM", "raptoreum", "Raptoreum", "testnet" ]
+    },
+    {
+        "name"          : "FoxD Coin",
+        "description"   : "FoxD Coin on Mainet",
+        "symbol"        : "FOXD",
+        "net_type"      : "main",
+
+        "net_magic"     : {
+            "protocol_version"  : 70026,
+            "main"              : "93eeab82",
+            "test"              : "e4a1a354",
+        },
+
+        "website"       : "https://foxdcoin.com/",
+        "github"        : "https://github.com/foxdproject/foxdcoin",
+
+        "explorer"      : "https://explorer2.foxdcoin.com/",
+        "explorer_type" : "iquidus_explorer",
+
+        "explorer_tx"   : "https://explorer2.foxdcoin.com/tx/<TXID>",
+        "explorer_block": "https://explorer2.foxdcoin.com/block/<HASH>",
+
+        "api"           : {
+            "block_count"       : "https://explorer2.foxdcoin.com/api/getblockcount",
+            "raw_tx"            : "https://explorer2.foxdcoin.com/api/getrawtransaction?txid=<TXID>&decrypt=1",
+            "balance"           : "https://explorer2.foxdcoin.com/ext/getaddress/<ADDRESS>"
+        },
+
+        "social"        : {
+            "discord"           : "https://discord.gg/bkC9xRvdz6",
+            "telegram"          : "n/a",
+            "twitter"           : "https://twitter.com/foxdcoin",
+            "reddit"            : "n/a",
+            "btctalk"           : "n/a"
+        },
+
+        "pow"           : [ "gpu" ],
+        "pow_algo"      : [ "xr16v2" ],
+
+        "search_keys"   : [ "foxd", "FOXD", "foxdcoin", "FoxDcoin", "mainnet" ]
+    }
+]
